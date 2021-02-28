@@ -15,7 +15,7 @@ class App extends Component {
   constructor(){
     super();
     this.state={
-      route: 'turnonthelight',
+      route: 'signin',
     }
   }
 
