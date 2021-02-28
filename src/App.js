@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
-import SignIn from './components/SignIn/SignIn'
-import TurnOnTheLight from './components/TurnOnTheLight/TurnOnTheLight'
+import SignIn from './components/SignIn/SignIn';
+import TurnOnTheLight from './components/TurnOnTheLight/TurnOnTheLight';
+import MusicAndCake from './components/MusicAndCake/MusicAndCake';
+import Wishes from './components/Wishes/Wishes';
+
 import './App.css';
 
 
@@ -9,7 +12,7 @@ class App extends Component {
     super();
     this.state={
       input:'',
-      route: 'turnonthelight',
+      route: 'wishes',
     }
   }
 
@@ -33,7 +36,19 @@ class App extends Component {
                   onRouteChange={this.onRouteChange}
                 />
               :
-                <p>Music and cake </p>
+                route === 'musicandcake'
+                ?
+                  <MusicAndCake
+                    onRouteChange={this.onRouteChange}
+                  />
+                :
+                  route === 'wishes'
+                  ?
+                    <Wishes
+                      onRouteChange={this.onRouteChange}
+                    />
+                  :
+                    <p>wait</p>
               
         }
       </div>
