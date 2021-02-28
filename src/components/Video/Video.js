@@ -4,9 +4,6 @@ import './Video.css'
 import Next from './Next';
 
 class Video extends React.Component {
-  constructor(){
-    super();
-}
   render() {
     const opts = {
       height: '500',

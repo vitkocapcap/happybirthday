@@ -1,8 +1,11 @@
 import React from 'react';
 import './TurnOnTheLight.css';
 
+
+  
 const TurnOnTheLight = ({onRouteChange})=>{
         return(
+            
             <div class="vh-100 dt w-100 tc bg-dark-gray white cover" 
             style= {{background:'url(http://mrmrs.github.io/photos/u/009.jpg) no-repeat center'}}>
                 <article class="mw7 center ph3 ph5-ns tc br2 pv5 bg-white dark-green mb5 mv6 athelas">

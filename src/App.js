@@ -10,12 +10,11 @@ import Footer from './components/Footer/Footer';
 
 import './App.css';
 
-
 class App extends Component {
   constructor(){
     super();
     this.state={
-      route: 'signin',
+      route: 'musicandcake',
     }
   }
 
@@ -38,9 +37,12 @@ class App extends Component {
             :
             route === 'turnonthelight'
               ?
-                <TurnOnTheLight
-                  onRouteChange={this.onRouteChange}
-                />
+                <div>
+                  <TurnOnTheLight
+                    onRouteChange={this.onRouteChange}
+                  />
+                </div>
+                
               :
                 route === 'musicandcake'
                 ?

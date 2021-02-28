@@ -30,7 +30,7 @@ const data = {
         {text: 'Luôn luôn thành công'},
         {text: 'Bạn bè luôn cạnh bên'},
         {text: 'Mãi hạnh phúc em nhé'},
-        {text: 'Bonus'}
+        {text: 'BONUS FROM FRIENDS'}
     
     ]
 }
