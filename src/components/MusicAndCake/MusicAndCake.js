@@ -43,7 +43,21 @@ const MusicAndCake = ({onRouteChange}) =>{
                 </div>
                 
             </div>
-            
+
+            <div class ="pb3">
+                <input 
+                    onClick={()=>onRouteChange('turnonthelight')}
+                    className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib mr2" 
+                    type="submit" 
+                    value="Back To First Page"
+                />
+                <input 
+                    onClick={()=>onRouteChange('video')}
+                    className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib ml1" 
+                    type="submit" 
+                    value="Back To Video"
+                />
+            </div>
         </article>
     );
 }

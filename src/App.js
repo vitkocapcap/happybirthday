@@ -4,7 +4,6 @@ import TurnOnTheLight from './components/TurnOnTheLight/TurnOnTheLight';
 import MusicAndCake from './components/MusicAndCake/MusicAndCake';
 import Wishes from './components/Wishes/Wishes';
 import Video from './components/Video/Video';
-import Next from './components/Video/Next';
 import Audio from './components/Audio/Audio';
 
 
@@ -15,7 +14,7 @@ class App extends Component {
   constructor(){
     super();
     this.state={
-      route: 'signin',
+      route: 'musicandcake',
     }
   }
 
@@ -54,13 +53,12 @@ class App extends Component {
                       onRouteChange={this.onRouteChange}
                     />
                   :
-                    <div >
-                    <Video/>
-                    <Next
-                      onRouteChange={this.onRouteChange}
+                 
+                    <Video
+                    onRouteChange={this.onRouteChange}
                     />
+                    
 
-                    </div>
               
         }
       </div>

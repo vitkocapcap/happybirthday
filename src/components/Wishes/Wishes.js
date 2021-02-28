@@ -45,7 +45,18 @@ class Wishes extends React.Component{
         }
     }
     
-
+    onClickBack = ()=>{
+        i--;
+        console.log(data.texts.length);
+        console.log(i);
+        if(i >= 0){
+            this.setState({currentImage: data.images[i].url});
+            this.setState({currentText: data.texts[i].text});
+        }else{
+            this.props.onRouteChange('turnonthelight');
+            i=0;
+        }
+    }
 
     onClickNext = ()=>{
         i++;
@@ -56,25 +67,36 @@ class Wishes extends React.Component{
             this.setState({currentText: data.texts[i].text});
         }else{
             this.props.onRouteChange('video');
+            i=0;
         }
     }
+
 
     render(){
         return(
             <div class="vh-100 dt w-100 tc bg-dark-gray white cover" 
             style= {{background:'url(http://mrmrs.github.io/photos/u/009.jpg) no-repeat center'}}>
-            <article class="mw6 mv6 center bg-white br3 pa3 pa3-ns mv3 ba b--black-40">
+            <article class="mw6 mh6 mv6 center bg-white br4 pa3 pa3-ns ba b--black-60 bw1 ">
                 <div class="tc">
                     <img 
                     alt=''
-                    src= {this.state.currentImage} class="br-100 h5 w5 dib ba b--black-05 pa2 mt5" title="Photo of a kitty staring at you"/>
-                    <h2 class="f4 fw4 gray mt0">{this.state.currentText}</h2>
-                    <input 
-                        onClick={this.onClickNext}
-                        className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" 
-                        type="submit" 
-                        value="Next"
-                    />
+                    src= {this.state.currentImage} class="br-100 h5 w5 dib ba b--black-05 pa2 mt5" title="My love"/>
+                    <h2 class="f4 fw6 gray mt0">{this.state.currentText}</h2>
+                    <div>
+                        <input 
+                            onClick={this.onClickBack}
+                            className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib mr1" 
+                            type="submit" 
+                            value="Back"
+                        />
+                        <input 
+                            onClick={this.onClickNext}
+                            className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib ml1" 
+                            type="submit" 
+                            value="Next"
+                        />
+                    </div>
+                    
                 </div>
             </article>
             </div>
