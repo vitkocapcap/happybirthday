@@ -5,6 +5,7 @@ import MusicAndCake from './components/MusicAndCake/MusicAndCake';
 import Wishes from './components/Wishes/Wishes';
 import Video from './components/Video/Video';
 import Audio from './components/Audio/Audio';
+import Footer from './components/Footer/Footer';
 
 
 import './App.css';
@@ -14,7 +15,7 @@ class App extends Component {
   constructor(){
     super();
     this.state={
-      route: 'musicandcake',
+      route: 'signin',
     }
   }
 
@@ -57,10 +58,9 @@ class App extends Component {
                     <Video
                     onRouteChange={this.onRouteChange}
                     />
-                    
-
-              
+   
         }
+          <Footer/>
       </div>
     );
   }

@@ -11,7 +11,7 @@ const MusicAndCake = ({onRouteChange}) =>{
                     
                         <h2 class="f5 pt5 fw1 ttu tracked mb2 lh-title">Dear Thu Hà</h2>
                     
-                    <h1 class="f1 f-headline-l fw1 i white-60">Happy 20ᵗʰ Birthday</h1>
+                    <h1 class="f1 f-headline-l fw1 i white-60">Happy 20ᵗʰBirthday</h1>
                     <blockquote class="ph0 mh0 measure f4 lh-copy center">
                         <p class="f2 fw1 white-70">
                         I will always love you 

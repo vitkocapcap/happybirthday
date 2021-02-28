@@ -7,13 +7,13 @@ const Next = ({onRouteChange})=>{
                     onClick={()=> onRouteChange('wishes')}
                     className="b ph3 pv2 input-reset ba b--black grow pointer f6 dib mr1" 
                     type="submit" 
-                    value="Back"
+                    value= "< Back"
                 />
                 <input 
                     onClick={()=> onRouteChange('musicandcake')}
                     className="b ph3 pv2 input-reset ba b--black grow pointer f6 dib ml1" 
                     type="submit" 
-                    value="Next"
+                    value="Next >"
                 />
             </div>
         );

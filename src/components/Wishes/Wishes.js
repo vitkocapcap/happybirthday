@@ -87,13 +87,13 @@ class Wishes extends React.Component{
                             onClick={this.onClickBack}
                             className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib mr1" 
                             type="submit" 
-                            value="Back"
+                            value="< Back"
                         />
                         <input 
                             onClick={this.onClickNext}
                             className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib ml1" 
                             type="submit" 
-                            value="Next"
+                            value="Next >"
                         />
                     </div>
                     
