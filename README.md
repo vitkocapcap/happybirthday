@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Watch Live Version: [Click Here] (https://vitkocapcap.github.io/happybirthday/)
+Watch Live Version: [Click Here](https://vitkocapcap.github.io/happybirthday/)
 
 ## Available Scripts
 
