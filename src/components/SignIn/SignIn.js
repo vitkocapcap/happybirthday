@@ -29,8 +29,10 @@ class SignIn extends React.Component{
 
     render(){
         return(
-            <article className="br3 ba b--black-20 mv6 w-100 w-50-m w-25-l mw6 shadow-5 center">
-                <main className="pa4 black-80">
+            <div class="vh-100 dt w-100 tc bg-dark-gray white cover" 
+            style= {{background:'url(https://i.pinimg.com/originals/c6/d4/80/c6d480a1238752ba4e9909a7cc765b20.jpg) no-repeat center'}}>
+            <article className="br4 ba b--black-20 mv6 w-100 w-50-m w-25-l mw6 shadow-5 center">
+                <main className="pa4 black-80 bg-white-80 br4">
                     <div className="measure">
                         <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
                             <legend className="f1 fw6 ph0 mh0">Sign In</legend>
@@ -67,6 +69,7 @@ class SignIn extends React.Component{
                     </div>
                 </main>
             </article>
+            </div>
         );
     }
 }

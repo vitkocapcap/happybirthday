@@ -3,6 +3,10 @@ import SignIn from './components/SignIn/SignIn';
 import TurnOnTheLight from './components/TurnOnTheLight/TurnOnTheLight';
 import MusicAndCake from './components/MusicAndCake/MusicAndCake';
 import Wishes from './components/Wishes/Wishes';
+import Video from './components/Video/Video';
+import Next from './components/Video/Next';
+import Audio from './components/Audio/Audio';
+
 
 import './App.css';
 
@@ -11,8 +15,7 @@ class App extends Component {
   constructor(){
     super();
     this.state={
-      input:'',
-      route: 'wishes',
+      route: 'turnonthelight',
     }
   }
 
@@ -24,6 +27,9 @@ class App extends Component {
     const {route} = this.state;
     return (
       <div className="App">
+        <div>
+          <Audio/>
+        </div>
         { route === 'signin'
             ?
             <SignIn 
@@ -48,7 +54,13 @@ class App extends Component {
                       onRouteChange={this.onRouteChange}
                     />
                   :
-                    <p>wait</p>
+                    <div >
+                    <Video/>
+                    <Next
+                      onRouteChange={this.onRouteChange}
+                    />
+
+                    </div>
               
         }
       </div>
