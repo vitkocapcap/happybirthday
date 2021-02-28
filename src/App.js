@@ -1,25 +1,44 @@
-import logo from './logo.svg';
+import React, {Component} from 'react';
+import SignIn from './components/SignIn/SignIn'
+import TurnOnTheLight from './components/TurnOnTheLight/TurnOnTheLight'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  constructor(){
+    super();
+    this.state={
+      input:'',
+      route: 'turnonthelight',
+    }
+  }
+
+  onRouteChange = (route)=>{
+    this.setState({route: route})
+  }
+
+  render() {
+    const {route} = this.state;
+    return (
+      <div className="App">
+        { route === 'signin'
+            ?
+            <SignIn 
+              onRouteChange={this.onRouteChange}
+            />
+            :
+            route === 'turnonthelight'
+              ?
+                <TurnOnTheLight
+                  onRouteChange={this.onRouteChange}
+                />
+              :
+                <p>Music and cake </p>
+              
+        }
+      </div>
+    );
+  }
 }
 
 export default App;
