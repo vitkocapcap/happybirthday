@@ -55,17 +55,17 @@ const MusicAndCake = ({onRouteChange}) =>{
             <section class="mw7 center avenir">
                 <h2 class="baskerville pt3 fw6 ph3 ph0-l tl">Lover 💕</h2>
                 <article class="bt bb b--black-10">
-                    <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
+                    <a class="db pv4 ph3 ph0-l no-underline black dim" href="https://www.facebook.com/npbv2212/" target="_blank">
                         <div class="flex flex-column flex-row-ns">
                             <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                                <img src="https://scontent-muc2-1.xx.fbcdn.net/v/t1.15752-9/155312576_460734171718069_4773601303703587080_n.jpg?_nc_cat=100&ccb=3&_nc_sid=ae9488&_nc_ohc=5W1l3D6icPkAX-_grYG&_nc_ht=scontent-muc2-1.xx&oh=12e8910454a404d7f4919aab1c49f5de&oe=606039AB" class="br-100 w5 h5 ba b--black-05 db" alt="Photo of a dimly lit room with a computer interface terminal."/>
+                                <img src="https://scontent-muc2-1.xx.fbcdn.net/v/t1.15752-9/155312576_460734171718069_4773601303703587080_n.jpg?_nc_cat=100&ccb=3&_nc_sid=ae9488&_nc_ohc=5W1l3D6icPkAX-_grYG&_nc_ht=scontent-muc2-1.xx&oh=12e8910454a404d7f4919aab1c49f5de&oe=606039AB" class="br-100 w5 h5 ba b--black-05 db" alt="1 person, portrait"/>
                             </div>
                             <div class="w-100 w-60-ns pl3-ns pt4 mt1">
-                                <h1 class="f3 fw1 baskerville mt0 fw6 lh-title">Giàu tình cảm nhưng cứng đầu</h1>
+                                <h1 class="f3 fw1 baskerville mt0 fw6 lh-title">Giàu tình cảm, nhưng cứng đầu</h1>
                                 <p class="f6 f5-l lh-copy tj">
-                                Biết yêu thương, quan tâm đến mọi người xung quanh nhưng thỉnh thoảng rất ngang bướng và dễ khó chịu với tất cả.
+                                Biết yêu thương, quan tâm đến mọi người xung quanh nhưng thỉnh thoảng rất ngang bướng và dễ khó chịu với tất cả. Dẫu sao đi nữa, bạn Hà cực kỳ dễ thương vì lúc nào tui cũng muốn thương chị Hà.
                                 </p>
-                                <p class="f6 lh-copy mv0 blue tr">Nguyễn Phan Bảo Việt</p>
+                                <p class="f6 lh-copy mv0 blue tr">Bảo Việt</p>
                             </div>
                         </div>
                     </a>
@@ -75,56 +75,70 @@ const MusicAndCake = ({onRouteChange}) =>{
             <section class="mw7 center avenir">
                 <h2 class="baskerville pt3 fw6 ph3 ph0-l tl">Friends 👩🏻‍🤝‍👩🏻</h2>
                 <article class="bt bb b--black-10">
-                    <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
+                    <a class="db pv4 ph3 ph0-l no-underline black dim" href="https://www.facebook.com/profile.php?id=100008248873374" target="_blank">
                         <div class="flex flex-column flex-row-ns">
                             <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                                <img src="https://scontent-muc2-1.xx.fbcdn.net/v/t1.0-9/149345811_3031792170439049_7787673039645675524_n.jpg?_nc_cat=100&ccb=3&_nc_sid=174925&_nc_ohc=U0P-Y2oUSZkAX9Fq9Ue&_nc_ht=scontent-muc2-1.xx&oh=3bc9f6fafb36df439e44ef0bb2050d84&oe=60636F02" class="br-100 w5 h5 ba b--black-05 db" alt="Photo of a dimly lit room with a computer interface terminal."/>
+                                <img src="https://scontent-muc2-1.xx.fbcdn.net/v/t1.0-9/149345811_3031792170439049_7787673039645675524_n.jpg?_nc_cat=100&ccb=3&_nc_sid=174925&_nc_ohc=U0P-Y2oUSZkAX9Fq9Ue&_nc_ht=scontent-muc2-1.xx&oh=3bc9f6fafb36df439e44ef0bb2050d84&oe=60636F02" class="br-100 w5 h5 ba b--black-05 db" alt="1 person, portrait"/>
                             </div>
                             <div class="w-100 w-60-ns pl3-ns pt4 mt1">
-                                <h1 class="f3 fw1 baskerville mt0 lh-title">Title</h1>
-                                <p class="f6 f5-l lh-copy">
-                                Your description<br/>
-                                (i.e. something about Thu Ha)
+                                <h1 class="f3 fw1 baskerville mt0 fw6 lh-title">Má Mì</h1>
+                                <p class="f6 f5-l lh-copy tj">
+                                Nữ công gia chánh tam tòng tứ đức có đủ. Đặc biệt luôn là người giữ trẻ cho cả 1 đám loi nhoi chúng mình=)))
                                 </p>
-                                <p class="f6 lh-copy mv0 blue">Duy Nguyễn</p>
+                                <p class="f6 lh-copy mv0 blue tr">Khánh Duy</p>
                             </div>
                         </div>
                     </a>
                 </article>
                 <article class="bt bb b--black-10">
-                    <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
+                    <a class="db pv4 ph3 ph0-l no-underline black dim" href="https://www.facebook.com/ngoan.hong.5621149" target="_blank">
                         <div class="flex flex-column flex-row-ns">
                             <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                                <img src="https://scontent-muc2-1.xx.fbcdn.net/v/t1.0-9/149345811_3031792170439049_7787673039645675524_n.jpg?_nc_cat=100&ccb=3&_nc_sid=174925&_nc_ohc=U0P-Y2oUSZkAX9Fq9Ue&_nc_ht=scontent-muc2-1.xx&oh=3bc9f6fafb36df439e44ef0bb2050d84&oe=60636F02" class="br-100 w5 h5 ba b--black-05 db" alt="Photo of a dimly lit room with a computer interface terminal."/>
+                                <img src="https://scontent-muc2-1.xx.fbcdn.net/v/t1.15752-9/155835004_625486838269261_8343573415896522815_n.jpg?_nc_cat=109&ccb=3&_nc_sid=ae9488&_nc_ohc=8SzOBXsRo1gAX8w3dp4&_nc_oc=AQnNlx-ujPf0Y5RiUquTZqnIKLnetJTjVQQ76A1SqQhMM2lOjQ1Urp5lyghqN17FAnY&_nc_ht=scontent-muc2-1.xx&oh=f71d71541aa963f5d26310ce65af0927&oe=6060C54D" class="br-100 w5 h5 ba b--black-05 db" alt="1 person, portrait"/>
                             </div>
                             <div class="w-100 w-60-ns pl3-ns pt4 mt1">
-                                <h1 class="f3 fw1 baskerville mt0 lh-title">Title</h1>
-                                <p class="f6 f5-l lh-copy">
-                                Your description<br/>
-                                (i.e. something about Thu Ha)
+                                <h1 class="f3 fw1 baskerville mt0 fw6 lh-title">Lão tỷ tỷ trưỏng thành</h1>
+                                <p class="f6 f5-l lh-copy tj">
+                                Tay phải cầm dao, tay trái có vá ..... nấu ăn ngon lắm á.Trong thiên hạ mỗi thứ đều biết chút chút .....đa tài
                                 </p>
-                                <p class="f6 lh-copy mv0 blue">Duy Nguyễn</p>
+                                <p class="f6 lh-copy mv0 blue tr">Hồng Ngoan</p>
                             </div>
                         </div>
                     </a>
                 </article>
                 <article class="bt bb b--black-10">
-                    <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0">
+                    <a class="db pv4 ph3 ph0-l no-underline black dim" href="https://www.facebook.com/profile.php?id=100011622946693" target="_blank">
                         <div class="flex flex-column flex-row-ns">
                             <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                                <img src="https://scontent-muc2-1.xx.fbcdn.net/v/t1.0-9/149345811_3031792170439049_7787673039645675524_n.jpg?_nc_cat=100&ccb=3&_nc_sid=174925&_nc_ohc=U0P-Y2oUSZkAX9Fq9Ue&_nc_ht=scontent-muc2-1.xx&oh=3bc9f6fafb36df439e44ef0bb2050d84&oe=60636F02" class="br-100 w5 h5 ba b--black-05 db" alt="Photo of a dimly lit room with a computer interface terminal."/>
+                                <img src="https://scontent-muc2-1.xx.fbcdn.net/v/t1.0-9/154209265_1210799599317460_8081414996250784548_n.jpg?_nc_cat=107&ccb=3&_nc_sid=09cbfe&_nc_ohc=Toi5NwgIN8wAX86i2Ue&_nc_ht=scontent-muc2-1.xx&oh=c77ce93e442e12e85ccfee2eabe2d815&oe=6061C481" class="br-100 w5 h5 ba b--black-05 db" alt="1 person, portrait"/>
                             </div>
                             <div class="w-100 w-60-ns pl3-ns pt4 mt1">
-                                <h1 class="f3 fw1 baskerville mt0 lh-title">Title</h1>
-                                <p class="f6 f5-l lh-copy">
-                                Your description<br/>
-                                (i.e. something about Thu Ha)
+                                <h1 class="f3 fw1 baskerville mt0 fw6 lh-title">“Ms. Bít tuốt”</h1>
+                                <p class="f6 f5-l lh-copy tj">
+                                Cái gì cũng biết, cái gì cũng làm được, làm mẹ của tụi tui còn làm được nữa cơ mà.
                                 </p>
-                                <p class="f6 lh-copy mv0 blue">Duy Nguyễn</p>
+                                <p class="f6 lh-copy mv0 blue tr">Tuyết Anh</p>
                             </div>
                         </div>
                     </a>
                 </article>
+                <article class="bt bb b--black-10">
+                    <a class="db pv4 ph3 ph0-l no-underline black dim" href="https://www.facebook.com/profile.php?id=100040520923484" target="_blank">
+                        <div class="flex flex-column flex-row-ns">
+                            <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+                                <img src="https://scontent-muc2-1.xx.fbcdn.net/v/t1.15752-9/156227632_417619706002341_5330922999680350772_n.jpg?_nc_cat=103&ccb=3&_nc_sid=ae9488&_nc_ohc=on7pU9oFm-0AX9cpXvk&_nc_ht=scontent-muc2-1.xx&oh=aa0cfa29d96f810b878be35ebe7507d2&oe=6060B770" class="br-100 w5 h5 ba b--black-05 db" alt="1 person, portrait"/>
+                            </div>
+                            <div class="w-100 w-60-ns pl3-ns pt4 mt1">
+                                <h1 class="f3 fw1 baskerville mt0 fw6 lh-title">GÚm ba la xì bùm ông bụt hiện ra</h1>
+                                <p class="f6 f5-l lh-copy tj">
+                                Hôm nay nhân dịp Thu Hà chào đời ta ban cho con 3 điều may mắn: chúc con xinh đẹp, học giỏi cuối cùng là Chúc Thu Hà ngày càng đảm đang để sớm có chồng đẹp con ngoan.
+                                </p>
+                                <p class="f6 lh-copy mv0 blue tr">Ngọc Mỹ</p>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
 
             </section>
 
