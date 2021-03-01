@@ -129,7 +129,7 @@ const MusicAndCake = ({onRouteChange}) =>{
                                 <img src="https://scontent-muc2-1.xx.fbcdn.net/v/t1.15752-9/156227632_417619706002341_5330922999680350772_n.jpg?_nc_cat=103&ccb=3&_nc_sid=ae9488&_nc_ohc=on7pU9oFm-0AX9cpXvk&_nc_ht=scontent-muc2-1.xx&oh=aa0cfa29d96f810b878be35ebe7507d2&oe=6060B770" class="br-100 w5 h5 ba b--black-05 db" alt="1 person, portrait"/>
                             </div>
                             <div class="w-100 w-60-ns pl3-ns pt4 mt1">
-                                <h1 class="f3 fw1 baskerville mt0 fw6 lh-title">GÚm ba la xì bùm ông bụt hiện ra</h1>
+                                <h1 class="f3 fw1 baskerville mt0 fw6 lh-title">Úm ba la xì bùm ông bụt hiện ra</h1>
                                 <p class="f6 f5-l lh-copy tj">
                                 Hôm nay nhân dịp Thu Hà chào đời ta ban cho con 3 điều may mắn: chúc con xinh đẹp, học giỏi cuối cùng là Chúc Thu Hà ngày càng đảm đang để sớm có chồng đẹp con ngoan.
                                 </p>
