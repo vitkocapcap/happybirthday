@@ -14,7 +14,7 @@ The username is `lethithuha`
 The password is `01032001`
 
 
-## `How to start in your own computer`
+## How to start in your own computer
 
 ### 1. Install Node.JS-npm, CSS-Toolkit Tachyons
 
